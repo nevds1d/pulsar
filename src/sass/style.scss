@@ -1,0 +1,10 @@
+@import 'base/variables';
+* {
+    font-family: 'MuseoModerno', sans-serif;
+}
+.container {
+    max-width: 1140px;
+}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons'

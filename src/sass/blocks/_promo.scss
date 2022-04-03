@@ -1,0 +1,51 @@
+.promo {
+    min-height: 650px;
+    background: url(../../img/bg_women.png) center (center/cover) no-repeat;
+    &__wrapper {
+        margin-top: 166px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__header {
+        font-weight: 700;
+        font-size: 42px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__subheader {
+        font-weight: 500;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__icons {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 425px;
+    }
+    &__icon {
+        width: 116px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &__link {
+        margin-top: 6px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        a {
+            text-transform: uppercase;
+            text-decoration: underline;
+            color: #FFFFFF;
+        }
+    }
+}
