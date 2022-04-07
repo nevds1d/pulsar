@@ -116,4 +116,12 @@
             width: 260px;
         }
     }
+    .carousel {
+        width: 320px;
+        &__inner {
+            img {
+                width: 33%;
+            }
+        }
+    }
 }
