@@ -51,6 +51,14 @@
             }
         }
     }
+    .carousel {
+        img {
+            width: 100%;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            display: none;
+        }
+    }
 }
 @media (max-width: 575px) {
     .subheader {
@@ -114,14 +122,6 @@
         .feed-form {
             margin-top: 23px;
             width: 260px;
-        }
-    }
-    .carousel {
-        width: 320px;
-        &__inner {
-            img {
-                width: 33%;
-            }
         }
     }
 }
