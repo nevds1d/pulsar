@@ -41,13 +41,21 @@
 	}
 	&__content {
 		margin-top: 60px;
+		display: none;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		&_active {
+			display: flex;
+		}
 	}
 	&-item {
 		width: 303px;
 		min-height: 442px;
 		border: 2px solid #D0D0D0;
 		padding: 20px;
-		/* overflow: hidden; */
+		overflow: hidden;
+		margin-bottom: 18px;
+		/* margin-right: -10px; */
 		&__img {
 			display: block;
 			margin: 0 auto;
